@@ -46,11 +46,12 @@ export const houseCheckSearchQuery = handleActions({
 
 
 const detailResultState = {
-  keyword: { value: '' },
-  division: { value: '' },
-  institutions: { value: '' },
-  houseStatus: { value: '' },
-  addressType: { value: '' },
+  address: '',
+  division: '',
+  institutions: '',
+  policeName: '',
+  houseStatus: '',
+  addressType: '',
 };
 export const houseDetailResult = handleActions({
   'request house detail'(state, action) {
